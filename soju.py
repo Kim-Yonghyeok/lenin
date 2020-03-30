@@ -50,5 +50,6 @@ async def on_message(message):
     if message.content.startswith("/사진"):
         pic = message.content.split(" ")[1]
         await message.channel.send(file=discord.File(pic))
-
-client.run("Njk0MTQ2MDI1OTIwNjU5NTc2.XoHYHA.bgA8ZvK10xloB5Mw_WHGca4Tfrg")
+        
+access_token = os.envention
+client.run(access_token)
