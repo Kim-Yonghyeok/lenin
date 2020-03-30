@@ -51,5 +51,5 @@ async def on_message(message):
         pic = message.content.split(" ")[1]
         await message.channel.send(file=discord.File(pic))
         
-access_token = os.envention
+access_token = os.envention["BOT_TOKEN"]
 client.run(access_token)
